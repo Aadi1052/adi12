@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>for e commerce website</title>
+</head>
+<body bgcolor="WHITE">
+    <h1>welcome to e commerce website</h1> 
+    <img src="Ixyz"> for image
+ <nav>
+    <p><a href="xyz"</a></p>
+    <p><audio src="xyz"></p>
+     <p><videp src="xyz"></p>
+ </nav>
+<p><iframe src="xyz"></P>
+</body>
+</html>
