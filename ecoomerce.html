@@ -1,0 +1,219 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        header img {
+            max-width: 700px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        nav {
+            text-align: center;
+            padding: 15px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        
+        main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .row {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .category-section {
+            margin-bottom: 0;
+        }
+        
+        .category-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+            text-transform: uppercase;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .product-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .product-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="amazon-npcp6jc782ixp9zs.jpg" alt="Logo">
+        <hr>
+    </header>
+
+    <nav>
+        <select name="laptops"><option value="#laptops">LAPTOPS</option>
+         <label>Laptops </label>
+                <option value="Dell">Dell</option>
+                <option value="Acer">Acer</option>
+                <option value="Hp">Hp</option>
+                <option value="Apple">Apple</option>
+            </select>
+        <select name="Mobile Phone"><option value="#Mobile Phone">MOBILE PHONE</option>
+         <label>Mobile Phones </label>
+                <option value="Samsung">Samsung</option>
+                <option value="realme">Realme</option>
+                <option value="oppo">Oppo</option>
+                <option value="Nokia">Nokia</option>
+        </select>
+        <select name="Bikes"><option value="#Bikes">BIKES</option>
+         <label>Bikes</label>
+                <option value="Aprilia">Aprilia</option>
+                <option value="Honda">Honda</option>
+                <option value="Royal Enfield">Royal Enfield</option>
+                <option value="Yamaha">Yamaha</option>
+        </select>
+        <select name="car"><option value="#Car">CAR</option>
+         <label>car </label>
+                <option value="Toyota">Toyote</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Skoda">Skoda</option>
+                <option value="Tata">Tata</option>
+        </select>
+
+
+        
+                 
+
+        
+    </nav>
+
+    <main>
+        <!-- Row 1: Laptops and Mobiles -->
+        <div class="row">
+            <!-- Laptops Section -->
+            <section id="laptops" class="category-section">
+                <h2 class="category-title">Laptops</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="daniel-korpai-HyTwtsk8XqA-unsplash.jpg" alt="Laptop 1">
+                    </div>
+                    <div class="product-item">
+                        <img src="bram-naus-N1gUD_dCvJE-unsplash.jpg" alt="Laptop 2">
+                    </div>
+                    <div class="product-item">
+                        <img src="ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="Laptop 3">
+                    </div>
+                    <div class="product-item">
+                        <img src="joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg" alt="Laptop 4">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mobiles Section -->
+            <section id="mobiles" class="category-section">
+                <h2 class="category-title">Mobile Phones</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="oscar-nord-8l9VxXI28tY-unsplash.jpg" alt="Mobile 1">
+                    </div>
+                    <div class="product-item">
+                        <img src="rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg" alt="Mobile 2">
+                    </div>
+                    <div class="product-item">
+                        <img src="rishabh-malhotra-83ypHTv6J2M-unsplash.jpg" alt="Mobile 3">
+                    </div>
+                    <div class="product-item">
+                        <img src="shiwa-id-Uae7ouMw91A-unsplash (2).jpg" alt="Mobile 4">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Row 2: Bikes and Washing Machines -->
+        <div class="row">
+            <!-- Bikes Section -->
+            <section id="bikes" class="category-section">
+                <h2 class="category-title">Bikes</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        
+                        <img src="sanjeev-nagaraj-E06AY-OUD7g-unsplash.jpg" alt="Bike 1">
+                    </div>
+                    <div class="product-item">
+                        <img src="rikas-rasheed-iq5jLDMVXZQ-unsplash.jpg" alt="Bike 2">
+                    </div>
+                    <div class="product-item">
+                        <img src="gijs-coolen--5rcxih1e44-unsplash.jpg" alt="Bike 3">
+                    </div>
+                    <div class="product-item">
+                        <img src="harley-davidson-eeTJKC_wz34-unsplash.jpg" alt="Bike 4">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Car Section -->
+            <section id="car" class="category-section">
+                <h2 class="category-title">Car</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="tyler-clemmensen-d1Jum1vVLew-unsplash.jpg" alt="Car 1">
+                    </div>
+                    <div class="product-item">
+                        <img src="olav-tvedt--oVaYMgBMbs-unsplash.jpg" alt="Car 2">
+                    </div>
+                    <div class="product-item">
+                        <img src="hyundai-motor-group-V1DFo8C4JPA-unsplash.jpg" alt="Car 3">
+                    </div>
+                    <div class="product-item">
+                        <img src="dhiva-krishna-X16zXcbxU4U-unsplash.jpg" alt="Car 4">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
+
